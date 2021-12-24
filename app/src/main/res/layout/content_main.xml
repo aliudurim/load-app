@@ -12,11 +12,15 @@
     <com.udacity.LoadingButton
         android:id="@+id/custom_button"
         android:layout_width="0dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_height="60dp"
-        android:layout_margin="20dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:loadingDefaultBackgroundColor="?attr/colorPrimary"
+        app:loadingBackgroundColor="?attr/colorPrimaryDark"
+        app:loadingDefaultText="Download"
+        app:loadingText="We are loading"
+        app:loadingTextColor="@color/white" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
